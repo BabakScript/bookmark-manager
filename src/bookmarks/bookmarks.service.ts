@@ -11,6 +11,10 @@ export class BookmarksService {
     return this.bookmarks;
   }
 
+  findById(id: string): Bookmark {
+    return this.bookmarks.find((bookmark) => bookmark.id == id);
+  }
+
   createBookmark(createBookmarkDto: CreateBookmarkDto): Bookmark {
     const { url, description } = createBookmarkDto;
     const bookmark: Bookmark = {

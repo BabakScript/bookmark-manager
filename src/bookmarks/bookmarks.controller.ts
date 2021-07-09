@@ -1,4 +1,4 @@
-import { Body, Controller, Get, Post } from '@nestjs/common';
+import { Body, Controller, Get, Param, Post } from '@nestjs/common';
 import { url } from 'inspector';
 import { Bookmark } from './bookmark.model';
 import { BookmarksService } from './bookmarks.service';
@@ -11,6 +11,11 @@ export class BookmarksController {
   @Get()
   findAll(): Bookmark[] {
     return this.bookmarksService.findAll();
+  }
+
+  @Get('/:id')
+  findById(@Param('id') id: string): Bookmark {
+    return this.bookmarksService.findById(id);
   }
 
   @Post()
