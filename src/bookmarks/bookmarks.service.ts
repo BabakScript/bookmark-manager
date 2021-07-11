@@ -51,4 +51,10 @@ export class BookmarksService {
   deleteBookmark(id: string): void {
     this.bookmarks = this.bookmarks.filter((bookmark) => bookmark.id !== id);
   }
+
+  updateBookmarkDescription(id: string, description: string): Bookmark {
+    const bookmark = this.findById(id);
+    bookmark.description = description;
+    return bookmark;
+  }
 }

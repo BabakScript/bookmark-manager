@@ -4,6 +4,7 @@ import {
   Delete,
   Get,
   Param,
+  Patch,
   Post,
   Query,
 } from '@nestjs/common';
@@ -38,5 +39,13 @@ export class BookmarksController {
   @Delete('/:id')
   deleteBookmark(@Param('id') id: string): void {
     return this.bookmarksService.deleteBookmark(id);
+  }
+
+  @Patch('/:id/description')
+  updateBookmarkDescription(
+    @Param('id') id: string,
+    @Body('description') description: string,
+  ): Bookmark {
+    return this.bookmarksService.updateBookmarkDescription(id, description);
   }
 }
