@@ -1,73 +1,79 @@
+# BabakScript Bookmark Manager (Delicious.com clone)
+
 <p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" /></a>
+  <a href="https://www.youtube.com/BabakScript?sub_confirmation=1" target="blank"><img src="logo.png" width="320" alt="BabakScript" /></a>
 </p>
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+Minimalist and super-fast Delicious clone based on Nest.js and React **(video tutorial available on YouTube)** 
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+You can watch step-by-step video tutorial for this repo on this Youtube playlist:  
+https://www.youtube.com/playlist?list=PL_YlQ3V61lxbS-vZuKHcImr3_VJlM58-w
 
-## Description
+# TOC
+- [BabakScript Bookmark Manager (Delicious.com clone)](#babakscript-bookmark-manager-deliciouscom-clone)
+- [TOC](#toc)
+  - [1. Setup CLI](#1-setup-cli)
+  - [2. Setup Project](#2-setup-project)
+  - [3. Modules in Nest.js](#3-modules-in-nestjs)
+  - [4. First Module](#4-first-module)
+  - [5. First Controller](#5-first-controller)
+  - [6. Describe 3 key concepts: Service, Provider & Dependancy Injection](#6-describe-3-key-concepts-service-provider--dependancy-injection)
+  - [7. First Service](#7-first-service)
+  - [8. First Endpoint](#8-first-endpoint)
+  - [9. Add type-checking and UUID to bookmarks](#9-add-type-checking-and-uuid-to-bookmarks)
+  - [10. First Post Request](#10-first-post-request)
+  - [11. DTO concept and implement first DTO](#11-dto-concept-and-implement-first-dto)
+  - [12. Using Route Parameters](#12-using-route-parameters)
+  - [13. Query Parameters](#13-query-parameters)
+  - [14. First Delete Request](#14-first-delete-request)
+  - [15. First Patch Request](#15-first-patch-request)
+  - [16. Add Endpoint Prefix](#16-add-endpoint-prefix)
+  - [17. Playlist / Project Plan](#17-playlist--project-plan)
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
-
-## Installation
-
-```bash
-$ npm install
-```
-
-## Running the app
-
-```bash
-# development
-$ npm run start
-
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
-```
-
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+## 1. Setup CLI
+* [Video URL](https://youtu.be/fJN2npzSUp4)
+## 2. Setup Project
+* [Video URL](https://youtu.be/5uPEMOz02r0)
+* [Commit URL](https://github.com/BabakScript/bookmark-manager/commit/a2f16e81498ca1a2fc594aa74d3b6d46f466b272)
+## 3. Modules in Nest.js
+* [Video URL](https://youtu.be/GhhzuXM7fto)
+## 4. First Module
+* [Video URL](https://youtu.be/FrdbvX2q_kw)
+* [Commit URL](https://github.com/BabakScript/bookmark-manager/commit/5ae804f1dc4f54f5b6c546e4f0a6e96972727bda)
+## 5. First Controller
+* [Video URL](https://youtu.be/UONapkoz-YU)
+* [Commit URL](https://github.com/BabakScript/bookmark-manager/commit/d232acd7c3c36c41abfea311984b509ac753b4c6)
+## 6. Describe 3 key concepts: Service, Provider & Dependancy Injection
+* [Video URL](https://youtu.be/FF9W_bDjuiU)
+## 7. First Service
+* [Video URL](https://youtu.be/oJsDhNnDiHk)
+* [Commit URL](https://github.com/BabakScript/bookmark-manager/commit/21f3858379505dcb2ef70cf0cd5fe51d4a82ac72)
+## 8. First Endpoint
+* [Video URL](https://youtu.be/KoWxx2JjEBs)
+* [Commit URL](https://github.com/BabakScript/bookmark-manager/commit/92792f39544271866b78030b57d0a4f8a6f3d911)
+## 9. Add type-checking and UUID to bookmarks
+* [Video URL](https://youtu.be/xVB0DMZ1A5w)
+* [Commit URL](https://github.com/BabakScript/bookmark-manager/commit/92792f39544271866b78030b57d0a4f8a6f3d911)
+## 10. First Post Request
+* [Video URL](https://youtu.be/ZAULQkRIHBw)
+* [Commit URL](https://github.com/BabakScript/bookmark-manager/commit/dd40091d0a0bfa9b55e173f496d3c0b28ca5379a)
+## 11. DTO concept and implement first DTO
+* [Video URL](https://youtu.be/5lH6MiCY5tk)
+* [Commit URL](https://github.com/BabakScript/bookmark-manager/commit/7e6dc5b18e9653c5c9c0240377f20fdbb706a7a0)
+## 12. Using Route Parameters
+* [Video URL](https://youtu.be/IbiP8IAubKg)
+* [Commit URL](https://github.com/BabakScript/bookmark-manager/commit/74c038684d8ae953e3ec44340598154dc68e095c)
+## 13. Query Parameters
+* [Video URL](https://youtu.be/8D0QA7JnLBo)
+* [Commit URL](https://github.com/BabakScript/bookmark-manager/commit/c23903130394784660521fe92be11151ea16acbc)
+## 14. First Delete Request
+* [Video URL](https://youtu.be/9AaOnT19I5w)
+* [Commit URL](https://github.com/BabakScript/bookmark-manager/commit/c23903130394784660521fe92be11151ea16acbc)
+## 15. First Patch Request
+* [Video URL](https://youtu.be/WLMLP7XXZLo)
+* [Commit URL](https://github.com/BabakScript/bookmark-manager/commit/53d2fb5352eb3d6a9675c5279a25ea1d8e08d74e)
+## 16. Add Endpoint Prefix
+* [Video URL](https://youtu.be/fiHnm6owYPE)
+* [Commit URL](https://github.com/BabakScript/bookmark-manager/commit/9767cba440f3f644ed4f53b3f9061039e72554a5)
+## 17. Playlist / Project Plan
+* [Video URL](https://youtu.be/yJtk5kLupFI)
